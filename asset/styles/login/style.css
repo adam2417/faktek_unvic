@@ -1,0 +1,9 @@
+.image{
+    width: 75px;
+  height: 75px;
+  border-radius: 50%;
+    background-image: url("../../images/login/no_pic.jpg");
+    background-position: center center;
+    background-size: cover;
+    padding-left:15px;
+}

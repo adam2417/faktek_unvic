@@ -1,0 +1,211 @@
+body{
+    padding:0;
+    margin:0;
+}
+div#upper_menu {
+    border:0px solid green;
+    background-color: rgb(4,122,219);    
+}
+/*** Header ****/
+.header{
+    border:0px solid red;
+    overflow: hidden;
+    padding:0;
+    margin:0;  
+}
+/*** Header kiri logo dan judul ***/
+.left_header{
+    border:0px solid blue;
+    width:45%;
+    margin:0;
+    padding:0;
+    float:left;
+    color:#ffffff;
+}
+.imagespan{
+    border:0px solid purple;
+    float:left;
+}
+.judul{
+    border:0px solid black;
+    float:left;
+    margin-top:55px;
+    font-family: "Arial MS","Helvetica ms",sans-serif;
+    font-weight: bold;
+    font-size: 15pt;
+}
+/*** Header tengah ***/
+.center_header{
+    border:0px solid navy;
+}
+/*** Header kanan email dan phone ***/
+.right_header{
+    border:0px solid green;
+    width:20%;
+    float:right;
+    position:relative;
+    color:#ffffff;
+    margin-top:20px;
+}
+.info_fak {
+    font-family: "Arial MS","Helvetica ms",sans-serif;
+    font-weight: bold;
+    font-size: 12pt;
+}
+.info-fak tr>td a:visited {
+    color:#ffffff;
+}
+/**=============== END Header ===========**/
+/**============= Under Header ===========**/
+.head_image {
+    background-color:#000000;
+}
+/**=============   END   ===============**/
+/**** Content ****/
+div#content{
+    border:0px solid red;
+    min-height:455px;
+    height:auto;
+    overflow: hidden;
+}
+div#content .left{
+    margin:0px;
+    padding:0px;
+    float:left;
+    width:2%;
+    border:0px solid purple;
+}
+div#content .center{
+    width:71%;
+    padding:0;
+    margin:0;
+    border:0px solid blue;
+    float:left;
+    text-align: left;
+    padding-bottom:10px;
+}
+div#content .center h3{    
+    text-align: center;
+}
+div#content .right{
+    width:26%;
+    margin:0 2px;
+    padding:0;
+    border:0px solid pink;
+    float:right;
+    text-align: left;
+    /*background-color: rgb(120,183,228);*/
+    min-height:100%;
+}
+.uprofile{
+    border:0px solid green;
+    align-items: center;
+    padding:0;
+    margin:5px 0px;
+    height:125px;
+    font-family: "Arial Rounded BT","Arial Black","Helvetica";
+    text-align: center;
+    font-size: 10pt;
+}
+.uprofile_left{
+    border:0px solid red;
+    float:left;
+    width:25%;
+}
+.uprofile_center{
+    border:0px solid blue;
+    float:left;
+    width:60%;
+}
+.uprofile_right{
+    border:0px solid orange;
+    float:left;
+    width:25%;
+}
+.loginbutton {
+  color: #ffffff;
+  background: #6496c8;
+  border: solid 5px #6496c8;
+}
+.loginbutton:hover,
+.loginbutton.hover {
+  border-color: #346392;
+  color: #ffffff;
+  background: #346392;
+}
+.loginbutton:active,
+.loginbutton.active {
+  border-color: #27496d;
+  color: #27496d;
+}
+.login {
+    border:0px solid black;
+    margin-top:20px;
+    padding-left:15px;
+    padding-bottom:15px;
+}
+.login h3{
+    font-family: "Trebuchet MS","Helvetica",sans-serif;
+    font-size:1.7em;
+}
+.login input[type="text"] {
+  padding: 10px;
+  border: solid 1px #dcdcdc;
+  transition: box-shadow 0.3s, border 0.3s;
+}
+.login input[type="text"]:focus,
+.login input[type="text"].focus {
+  border: solid 1px #707070;
+  box-shadow: 0 0 5px 1px #969696;
+}
+.login input[type="password"] {
+  padding: 10px;
+  border: solid 1px #dcdcdc;
+  transition: box-shadow 0.3s, border 0.3s;
+}
+.login input[type="password"]:focus,
+.login input[type="password"].focus {
+  border: solid 1px #707070;
+  box-shadow: 0 0 5px 1px #969696;
+}
+.center_right {
+    margin-left:5px;
+    font-family:"Arial Rounded BT","Verdana","Helvetica";
+    font-size:12pt;
+    background-color: rgb(205,209,214);
+    overflow-y: scroll;
+}
+.center_right h3{
+    text-align: center;
+}
+/**========== END Content ========**/
+div#footer{
+    border:0px solid black;
+    background:url("../../images/church/bbg_blue.gif");
+    color:white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    bottom: 0;
+    height:75px;
+}
+div#footer a:visited{
+    color:white;
+}
+.name_guard {
+	font: 67.5% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;	
+	font-weight:bold;
+	text-align:right;
+	color: rgb(223,0,0);
+	border:0px solid white;
+	z-index:1000;
+    margin-right:25px;
+    margin-top:0;
+}
+.name_guard a:visited {
+	color:rgb(10,201,38);
+}
+/**
+For Button
+*/
+input.btn {color:rgb(0,164,0);font: bold 84% 'trebuchet ms',helvetica,sans-serif;background-color:#fed;   border:1px solid;   border-color: #696 #363 #363 #696; }
